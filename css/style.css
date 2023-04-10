@@ -1,0 +1,46 @@
+/* CSS Document */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.center {
+	margin:auto;
+}
+
+#login-form {
+	height:100vh;
+	margin:auto;
+}
+
+.table-login {
+	margin-top: 100px;
+	width: 400px;
+	background-color: pink;
+	padding: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 2px 2px 8px black;
+}
+
+.lable-login {
+	padding-right: 10px; 
+}
+
+.input-form {
+	padding: 2px 8px;
+}
+
+.btn_submit {
+	padding: 4px 8px;
+}
+
+.btn-login-form {
+	 padding: 4px 8px; 
+	 background-color: transparent; 
+	 border: 1px solid black; 
+	 cursor: pointer;
+}
+
+
