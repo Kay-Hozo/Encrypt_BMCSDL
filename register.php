@@ -54,13 +54,17 @@
       </tr>
     </tbody>
   </table>
+  <br>
+  <div style="text-align:center">
+  	<a href='login.php'>Login</a>
+  </div>
   <?php	
   	
-	$p->generateKeyAndIV();
 	switch ($_POST["btnSubmit"])
 	{
 		case 'Sign Up': 
 		{
+			$p->generateKeyAndIV();
 			$p->createUser();
 			break;	
 		}

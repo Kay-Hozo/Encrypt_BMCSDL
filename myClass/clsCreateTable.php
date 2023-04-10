@@ -236,8 +236,6 @@
 				<div style='text-align: center;'>
 					<p>Key: {$_SESSION['key']}</p>
 					<p>IV Key: {$_SESSION['iv']}</p>
-					<br>
-					<a href='login.php'>Login</a>
 			</div>";
 		   return array('key' => $key,'iv' => $iv);
 		}
