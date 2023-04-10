@@ -34,7 +34,7 @@
         <td><input type="text" name="txtIVKey" id="txtPRKey" class="input-form"></td>
       </tr>
       <tr>
-        <td colspan="2" align="center"><input type="submit" name="btn_login" class="btn-submit btn_login" value="Login"></td>
+        <td colspan="2" align="center"><input type="submit" name="btn_login" class="btn-submit btn_login" style="padding: 4px 8px" value="Login"></td>
       </tr>
     </tbody>
   </table>
@@ -48,6 +48,9 @@
 		}	
 	}
   ?>
+  <div style="margin-top: 20px; padding: 8px; text-align:center">
+  	<a href="register.php">Register</a>
+  </div>
 </form>
 </body>
 </html>

@@ -78,7 +78,6 @@
 		
 		function login()
 		{
-			session_destroy();
 			session_start();
 			$username = $_REQUEST["txtUsernameLG"];
 			$password = $_REQUEST["txtPassLG"];
@@ -106,7 +105,7 @@
 			{
 				echo 'toi otio';
 				$_SESSION['accountName'] = $this->decryptAES($data['username'], $_SESSION['keyUser'], $_SESSION['ivKeyUser']);
-				header('location: postFE.php');
+				header('location: welcome.php');
 			}			
 		}
 		
@@ -116,7 +115,7 @@
 			"
 			<div class='background-box' style='text-align:center' >
 				<h2 style='padding: 10px;'>Welcome to website {$_SESSION['accountName']}</h2>
-				<img src='image/hello.jpg' alt=''/>
+				<img src='image/hello.png' width=400 alt=''/>
 				<form method='post' action=''>
 				  <button type='submit' class='btn-login-form' name='logout'>Log out</button>
 				</form>
